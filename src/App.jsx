@@ -6,8 +6,16 @@ function App() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>🚀 Welcome to React</h1>
-      <p style={{ fontSize: "20px" }}>Count: {count}</p>
+      export default function App() {
+  return (
+    <div style={{ fontFamily: "Arial", textAlign: "center", padding: "20px" }}>
+      <h1>Hi, I’m Pranay 👋</h1>
+      <p>Welcome to my portfolio!</p>
+      <p>This is just a starting version. I’ll add more sections soon!</p>
+    </div>
+  );
+}
+<p style={{ fontSize: "20px" }}>Count: {count}</p>
       <button
         style={{
           padding: "10px 20px",
