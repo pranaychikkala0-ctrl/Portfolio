@@ -1,28 +1,11 @@
-import { useState } from "react";
-import "./App.css";
+// App.jsx
+import React from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function App() {
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>🚀 Welcome to React</h1>
-      <p style={{ fontSize: "20px" }}>Count: {count}</p>
-      <button
-        style={{
-          padding: "10px 20px",
-          backgroundColor: "#007bff",
-          color: "white",
-          border: "none",
-          borderRadius: "5px",
-          cursor: "pointer",
-        }}
-        onClick={() => setCount(count + 1)}
-      >
-        Increase Count
-      </button>
+    <div style={{ fontFamily: "Arial", textAlign: "center", padding: "20px" }}>
+      <h1>Hi, I’m Pranay 👋</h1>
+      <p>Welcome to my portfolio!</p>
     </div>
   );
 }
-
-export default App;
